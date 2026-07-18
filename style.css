@@ -39,3 +39,30 @@ h2{
     background-color:rgb(160, 160, 160)
 }
 
+    div.galery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+        
+div.galery-item {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+}
+
+div.galerry-item :hover {
+    border: 1px solid #777;
+}
+
+div.galery-item img {
+    width: 100%;
+    height: auto;
+}
+
+
+div.galerry-item div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
