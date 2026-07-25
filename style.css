@@ -32,12 +32,9 @@
 body{
     font-family: Arial, sans-serif;
     background-color:dimgrey
+    
 }
 
-h2{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color:rgb(160, 160, 160)
-}
 
     div.galery {
         display: flex;
@@ -66,3 +63,35 @@ div.galerry-item div.desc {
     text-align: center;
 }
 
+button {
+    background-color: #000;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buscador-input {
+    flex: 1;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    color: var(--text);
+    font-size: 0.85rem;
+    font-family: barlow, sans-serif;
+    outline: none;
+
+}
+
+
+
+
+
+
+                
