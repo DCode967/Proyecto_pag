@@ -14,11 +14,52 @@
 
 
 #header{
-    background-color: #1e1e2e;
+    background-image: url('./imagenes/assest/WhatsApp\ Image\ 2026-07-27\ at\ 6.33.21\ PM.jpeg');
+    padding: 0px;
     color: #fff;
     padding: 20px;
-    text-align: center;
+    text-align:left;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    
+}
+
+.buscador input{
+    width: 350px;
+    padding: 10px;
+
+    border: none;
+    border-radius: 20px;
+    
+    outline: none;
+}
+
+.acciones {
+    display: flex;
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.acciones a{
+    text-decoration: none;
+    color: white;   
+
+    padding: 10px 15px;
+
+    border-radius: 8px;
+
+    transition: 0.3s;
+
+}
+
+
+.acciones a:hover {
+    background-color: #ff6b00;
+
+}
+
+.acciones a :last-child {
+    background-color: #ff6b00;
+    font-weight: bold;
 }
 
 .img{
@@ -39,25 +80,22 @@ body{
 }
 
 
-    div.galery {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-    }
-        
-div.galery-item {
-    margin: 5px;
-    border: 1px solid #ccc;
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.producto{
+    text-align: center;
+}
+
+.producto img{
     width: 180px;
-}
-
-div.galerry-item :hover {
-    border: 1px solid #777;
-}
-
-div.galery-item img {
-    width: 100%;
-    height: auto;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 
@@ -79,18 +117,6 @@ button {
     cursor: pointer;
 }
 
-.buscador-input {
-    flex: 1;
-    background: var(--border);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 0.8rem 1rem;
-    color: var(--text);
-    font-size: 0.85rem;
-    font-family: barlow, sans-serif;
-    outline: none;
-
-}
 
 
 
